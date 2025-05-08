@@ -1,6 +1,6 @@
-# 🖥️ lol-console
+# 🖥️ buy-console
 
-**Command-line interface (CLI) and REPL** for interacting with the Living On Logic protocol.
+**Command-line interface (CLI) and REPL**
 
 This tool gives power users, developers, and bots an expressive terminal for managing MCPs, agents, modules, and registry data — fully offline-capable, programmable, and pixel-perfect.
 
@@ -28,10 +28,10 @@ This tool gives power users, developers, and bots an expressive terminal for man
 ## 🧪 Example Commands
 
 ```bash
-lol-console registry list
-lol-console mcp inspect binance
-lol-console agent run agent-123
-lol-console query "select * from signal.mcp where symbol = 'ETH'"
+buy-console registry list
+buy-console mcp inspect binance
+buy-console agent run agent-123
+buy-console query "select * from signal.mcp where symbol = 'ETH'"
 ```
 
 ---
@@ -39,8 +39,8 @@ lol-console query "select * from signal.mcp where symbol = 'ETH'"
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/LivingOnLogic/lol-console.git
-cd lol-console
+git clone https://github.com/buyproject/buy-console.git
+cd buy-console
 npm install
 npm run cli
 ```
